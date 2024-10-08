@@ -138,3 +138,11 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+/*
+ * Aþaðýdaki görevler yapýlamadý:
+Employee oluþturulurken, email adresi benzersiz olmalý. Ayný email ile kayýt yapýlmaya
+çalýþýldýðýnda bir hata döndürülmelidir.
+• Role eklerken, eðer IsAdmin true ise, bu rol sadece yöneticiler tarafýndan atanabilmelidir. Bu
+iþlem validasyonla kontrol edilmelidir.
+*/
